@@ -1,0 +1,110 @@
+.section {
+    background-color: var(--color-background-section);
+    box-shadow: var(--shadow);
+    height: 400px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.page-title {
+    font-size: clamp(2rem, 1rem + 3vw, 4rem);
+    color: var(--color-text-primary);
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px var(--color-title-shadow);
+    margin: 5px;
+}
+
+.input-name,
+.input-birthdate {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid var(--color-input-border);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.register-person {
+    padding: 10px 20px;
+    background-color: var(--color-button-bg);
+    color: var(--color-text-light);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.register-person:hover {
+    background-color: var(--color-button-hover-bg);
+    color: var(--color-text-primary);
+    transform: scale(1.20);
+}
+
+.clear-button {
+    padding: 10px 20px;
+    background-color: var(--color-button-bg);
+    color: var(--color-text-light);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.clear-button:hover {
+    background-color: var(--color-button-hover-bg);
+    color: var(--color-text-primary);
+    transform: scale(1.20);
+}
+
+.clear-button,
+.register-person {
+    margin: 5px;
+
+    margin-top: 15px;
+}
+
+.section-table{
+    margin-top: 1.5rem;
+}
+
+.people-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: var(--color-text-table);
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    filter: drop-shadow(0 2px 5px var(--color-table-shadow));
+}
+
+.header-row {
+    color: var(--color-text-dark);
+}
+
+.header-cell {
+    background-color: var(--color-table-header-bg);
+    padding: 10px;
+    border: 2px solid var(--color-table-border);
+}
+
+.header-delete,
+.delete-cell {
+    background-color: var(--color-transparent) !important;
+    border: 1px solid var(--color-transparent) !important;
+    padding: 5px;
+}
+
+.delete-btn {
+    cursor: pointer;
+}
+
+.name-cell,
+.birthdate-cell {
+    background-color: var(--color-table-cell-bg);
+    padding: 10px;
+    border: 2px solid var(--color-table-border);
+}
