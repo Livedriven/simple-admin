@@ -6,14 +6,20 @@ Aplicação web para cadastro e visualização de datas de aniversário, desenvo
 
 ## 📋 Índice
 
-- [Sobre o Projeto](#sobre-o-projeto)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias](#tecnologias)
-- [Estrutura de Pastas](#estrutura-de-pastas)
-- [Como Executar](#como-executar)
-- [Scripts Disponíveis](#scripts-disponíveis)
-- [Arquitetura](#arquitetura)
-- [Autor](#autor)
+- [🎂 Registro de Aniversários](#-registro-de-aniversários)
+  - [📋 Índice](#-índice)
+  - [Sobre o Projeto](#sobre-o-projeto)
+  - [✨ Funcionalidades](#-funcionalidades)
+  - [🛠 Tecnologias](#-tecnologias)
+  - [📁 Estrutura de Pastas](#-estrutura-de-pastas)
+  - [🚀 Como Executar](#-como-executar)
+    - [Pré-requisitos](#pré-requisitos)
+    - [Instalação e execução](#instalação-e-execução)
+  - [📜 Scripts Disponíveis](#-scripts-disponíveis)
+  - [🏗 Arquitetura](#-arquitetura)
+    - [Fluxo de dados](#fluxo-de-dados)
+    - [Camadas](#camadas)
+  - [👨‍💻 Autor](#-autor)
 
 ---
 
