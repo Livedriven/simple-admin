@@ -94,13 +94,10 @@ src/
 # 1. Clone o repositório
 git clone https://github.com/seu-usuario/simple-admin-refactor-migrate-to-react-architecture.git
 
-# 2. Acesse a pasta do projeto
-cd simple-admin-refactor-migrate-to-react-architecture
-
-# 3. Instale as dependências
+# 2. Instale as dependências
 npm install
 
-# 4. Inicie o servidor de desenvolvimento
+# 3. Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
