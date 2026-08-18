@@ -1,14 +1,13 @@
-import './styles/app.css';
 import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/footer';
+import Footer from './components/Footer';
+import PeopleManager from './components/PeopleManager';
 
-export default function App(){
-  return(
+export default function App() {
+  return (
     <>
-      <Header/>
-      <Main/>
-      <Footer/>
+      <Header />
+      <PeopleManager />
+      <Footer />
     </>
-  )
+  );
 }
