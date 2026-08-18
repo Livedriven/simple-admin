@@ -7,9 +7,7 @@ import {
   type PersonInput,
 } from '../schemas/person';
 
-export type AddPersonResult =
-  | { ok: true }
-  | { ok: false; message: string };
+export type AddPersonResult = { ok: true } | { ok: false; message: string };
 
 type PersonFormProps = {
   onAddPerson: (person: PersonInput) => AddPersonResult;
@@ -34,12 +32,14 @@ export default function PersonForm({
   const dateBounds = getBirthDateBounds();
 
   function handleChange(event: ChangeEvent<HTMLInputElement>) {
-    const field = event.currentTarget.name as keyof PersonInput;
+    const { name, value } = event.currentTarget;
+    const field = name as keyof PersonInput;
 
     setPerson((current) => ({
       ...current,
-      [field]: event.currentTarget.value,
+      [field]: value,
     }));
+
     setErrors((current) => ({ ...current, [field]: undefined }));
     setStatus('');
   }
